@@ -3,3 +3,5 @@ python-dotenv==1.0.0
 Requests==2.31.0
 spacy==3.6.1
 streamlit==1.26.0
+
+-e .
