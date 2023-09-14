@@ -218,7 +218,7 @@ try:
 except Exception as e:
     print("Error", e)   
                
-if st.session_state.text_summ is not None:
+if 'text_summ' in st.session_state and st.session_state.text_summ is not None:
     
     summ_text = st.session_state.text_summ
     tabs = st.tabs(['Description','Name Entity Recognition - (NER)'])
